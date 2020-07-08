@@ -57,7 +57,13 @@ from bs4 import BeautifulSoup
 
 #
 # Korean surnames that would be coded as English first names:
-notgivenname= ['Gil', 'Kim', 'Lee']	# ?: Ma
+notgivenname= ['Gil', 'Kim', 'Lee', 'Park', 'Choi', 'Jung', 'Kang', 'Cho', 'Jo', 'Yoon', 
+               'Jang', 'Iim', 'Han', 'Oh', 'Seo', 'Shin', 'Kwon', 'Hwang', 'Ahn', 'Song', 
+               'Jeon', 'Hong', 'Yu', 'Ko', 'Moon', 'Yang', 'Bae', 'Baek', 'Heo', 'Yoo',
+               'Nam', 'Sim', 'Rho', 'Ha', 'Kwak', 'Sung', 'Cha', 'Choo', 'Joo', 'Wu','Koo',
+                'Min', 'Ku', 'Na', 'Keum', 'Chae', 'Chun', 'Bang', 'Kong', 'Yeon', 'Yeo',
+               'On', 'Lm', 'Gi','Chu','Do','Seong','Seon','Shim','Ji','Bok','Bong','Goo',
+              'Kil','Noh','Pyo','Ra','Ri','Ro','Uhm']
 #
 # first words in some nonstandard lines that will be dropped:
 nonstandard= ['cast', '(cast', 'actor', 'additional', 'additionally', 'cameo', 'cameos', 'casting', 'categories', 'character', 'featuring', 'list', 'main', 'minor', 'notes', 'opening', 'other', 'others', 'retrieved', 'role', 'starring', 'supporting', 'unbilled', 'uncredited', 'voice', 'voices', '@media', '[note']
